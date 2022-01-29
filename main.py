@@ -120,11 +120,11 @@ class MyApp(App):
         if sum(s[:-1]) < 1.:
             self.y1.color = [1,1,1,1]
             self.y2.color = [1,1,1,1]
-            self.amplituda_label = [1,1,1,1]
+            self.amplituda_label.color = [1,1,1,1]
         else:
             self.y1.color = [0,0,0,1]
             self.y2.color = [0,0,0,1]
-            self.amplituda_label = [0,0,0,1]
+            self.amplituda_label.color = [0,0,0,1]
         self.settings.dismiss()
 
     def clear_inp(self, widget):
